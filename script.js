@@ -23,7 +23,7 @@ this.capturaEnter = () => {
             e.preventDefault()
             if(this.display.value == 'Conta Invalida') {
                 this.clear()
-                
+
             }
                 const el = e.target; /* botoao que esta sendo pressionado */
                 if (el.classList.contains('btn-num')) this.addNumDisplay(el);
